@@ -1,0 +1,104 @@
+nav {
+    background-color: black;
+    
+} 
+nav ul {
+    text-align: left;
+    word-spacing: 25px;   
+    display: inline-block; 
+    list-style: none;
+    padding: 0px  30px;
+}
+ul li{
+    display: inline-block;
+    font-size: larger;
+    color: white;
+}
+ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+.band {
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;   
+}
+.image1{
+
+    max-width: 700px;
+    width: 100%;
+    margin: auto; 
+   display: grid;
+   grid-template-columns: auto auto auto ;
+
+}
+.ticket{
+    background-color: black;
+    color: white;
+    width: auto;
+
+}
+.ticket ul{
+    max-width: 700px;
+    width: 100%;
+    margin: auto;  
+    display: grid; 
+    grid-template-columns: auto auto;
+   
+}
+.ticket li{
+    display: inline-block;
+    font-size: larger;
+    color: black;
+    box-sizing: content-box;
+    background-color: white;
+}
+.ticket .mainbox{
+    margin: 20px;
+    padding-left: 80px;
+}
+.ticket .place{
+    
+    box-sizing: content-box;
+    background-color: white;
+    padding: 10px;
+    margin:auto;
+    color: black;
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+}
+.contact{    
+    text-align: center;
+
+}
+.contact .detail{
+ 
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    float: left;
+    
+}
+.contact .fan .second {
+    box-sizing: content-box;
+    background-color: white;
+    padding: 10px;
+    margin:auto;
+    color: black;
+    display: contents;
+    
+
+}
+.contact .fan .third {
+    
+    
+    padding: 20px;
+    width: 25%;
+    display:block;
+    align-content: center;
+    align-items: center;
+
+}
